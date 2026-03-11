@@ -5,721 +5,659 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>NudgeMe – The Reminder App That Won’t Let You Forget</title>
-
 <meta name="description" content="NudgeMe is the reminder app that keeps reminding you until tasks are done. Featuring Nag Mode, Morning Briefing, flexible scheduling, analytics, and more.">
 
+<!-- Tailwind CSS -->
 <script src="https://cdn.tailwindcss.com"></script>
-
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 
 <style>
 body{
 font-family:'Inter',sans-serif;
 }
 </style>
-
 </head>
 
 <body class="bg-gray-50 text-gray-800">
 
 <!-- NAVBAR -->
-
 <header class="bg-white shadow">
-
-<div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-
-<h1 class="text-2xl font-bold text-indigo-600">
-NudgeMe
-</h1>
-
-<a href="https://play.google.com/store/apps/details?id=com.teknoefsun.nudge.nudge"
-class="bg-indigo-600 text-white px-5 py-2 rounded-lg font-semibold hover:bg-indigo-700">
-Download
-</a>
-
-</div>
-
+  <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-indigo-600">NudgeMe</h1>
+    <a href="https://play.google.com/store/apps/details?id=com.teknoefsun.nudge.nudge"
+       class="bg-indigo-600 text-white px-5 py-2 rounded-lg font-semibold hover:bg-indigo-700">Download</a>
+  </div>
 </header>
 
 <!-- HERO -->
-
 <section class="max-w-6xl mx-auto px-4 py-24 grid md:grid-cols-2 gap-12 items-center">
+  <div>
+    <h2 class="text-5xl font-bold mb-6 leading-tight">
+      🔔 The reminder app that actually keeps reminding you
+    </h2>
+    <p class="text-lg text-gray-600 mb-8">
+      Most reminder apps send one notification and give up.  
+      NudgeMe is different. It keeps nudging you until the task is done.
+      Perfect for medication, bills, workouts, follow-ups, and daily responsibilities.
+    </p>
+    <a href="https://play.google.com/store/apps/details?id=com.teknoefsun.nudge.nudge"
+       class="bg-indigo-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-indigo-700">
+      Download on Google Play
+    </a>
+  </div>
 
-<div>
-
-<h2 class="text-5xl font-bold mb-6 leading-tight">
-
-🔔 The reminder app that actually keeps reminding you
-
-</h2>
-
-<p class="text-lg text-gray-600 mb-8">
-
-Most reminder apps send one notification and give up.  
-NudgeMe is different. It keeps nudging you until the task is done.
-
-Perfect for medication, bills, workouts, follow-ups, and daily responsibilities.
-
-</p>
-
-<a href="https://play.google.com/store/apps/details?id=com.teknoefsun.nudge.nudge"
-class="bg-indigo-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-indigo-700">
-
-Download on Google Play
-
-</a>
-
-</div>
-
-<div>
-
-<!-- SCREENSHOTS CAROUSEL -->
-
-<section class="py-24 bg-gray-50">
-  <div class="max-w-6xl mx-auto px-4 text-center">
-    <h3 class="text-4xl font-bold mb-12">App Screenshots</h3>
-
-    <!-- Swiper -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <img src="https://play-lh.googleusercontent.com/vDoKEH_GURNOLRum9jyfO2-soyT5PRPGh9xxPz0CuGMFNK1s1hgSPMhwZBtcNuvQXeWDKylQQqLYRVB44nHf5g=w5120-h2880-rw" class="rounded-xl shadow-lg mx-auto" alt="Screenshot 1">
-        </div>
-        <div class="swiper-slide">
-          <img src="https://play-lh.googleusercontent.com/ngWATP2GoY2BAwigajhpsgyeieygjcxitPCEwoteohfARt52z05xY6-pjnpS3YtqA_ZD-ovXuHoCCTNYyR6L=w5120-h2880-rw" class="rounded-xl shadow-lg mx-auto" alt="Screenshot 2">
-        </div>
-        <div class="swiper-slide">
-          <img src="https://play-lh.googleusercontent.com/rA1sMxZhU6xEo9wVqPOL_-W0uAZhvF8RFEg5-4FCJ6gtC4GKXFXbrRGYXR67kdz3lXFy0mTauT4zllNXTX0alA=w5120-h2880-rw" class="rounded-xl shadow-lg mx-auto" alt="Screenshot 3">
-        </div>
-        <div class="swiper-slide">
-          <img src="https://play-lh.googleusercontent.com/Nhbwqj9bhttCYThDWR4syLKSmZKRdmQKpKtfjcoavnYnsDXmo-JgtRP5b0nH9zkoEjpkA-Nlp-IDkpPHMROW1Q=w5120-h2880-rw" class="rounded-xl shadow-lg mx-auto" alt="Screenshot 4">
-        </div>
-        <div class="swiper-slide">
-          <img src="https://play-lh.googleusercontent.com/MqFPufXLZWMJjIjheA3V_2WtqtIlhvSQnwLDeWLRYnJtzrT2HoER05-JOWTl1qZ4gN5wX-nEhDRjYj17oUn_aw=w5120-h2880-rw" class="rounded-xl shadow-lg mx-auto" alt="Screenshot 5">
-        </div>
-        <div class="swiper-slide">
-          <img src="https://play-lh.googleusercontent.com/fptSZjjlu9HOfqvvxFA7XP_7pADeoPbySysPhjNVKGcVVxLWaPOnb0TY2AcNAgWiohxgKmrd4Dj60mcjHnkDDtE=w5120-h2880-rw" class="rounded-xl shadow-lg mx-auto" alt="Screenshot 6">
-        </div>
-        <div class="swiper-slide">
-          <img src="https://play-lh.googleusercontent.com/XTadaOdtjoBp8kxiGrhGyVX2AfHpmose35y86ZLMTYTHQ8lDQ8d5lEiTqWLpg83KnoG3mgucUi4fx9KkUQx0Dg=w5120-h2880-rw" class="rounded-xl shadow-lg mx-auto" alt="Screenshot 7">
-        </div>
-        <div class="swiper-slide">
-          <img src="https://play-lh.googleusercontent.com/R4hnJmZeCwfFy1SbSinji4HF7ySm5ubl12f26PUH_Lgwmu5sve778FZBHcyHqZLmrwRxtoT4pRIeUrffGEYu3g=w5120-h2880-rw" class="rounded-xl shadow-lg mx-auto" alt="Screenshot 8">
+  <div>
+    <!-- SCREENSHOTS CAROUSEL -->
+    <section class="py-24 bg-gray-50">
+      <div class="max-w-6xl mx-auto px-4 text-center">
+        <h3 class="text-4xl font-bold mb-12">App Screenshots</h3>
+        <div class="swiper screenshotSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="https://play-lh.googleusercontent.com/vDoKEH_GURNOLRum9jyfO2-soyT5PRPGh9xxPz0CuGMFNK1s1hgSPMhwZBtcNuvQXeWDKylQQqLYRVB44nHf5g=w5120-h2880-rw" class="rounded-xl shadow-lg mx-auto" alt="NudgeMe app home screen showing today's reminders"></div>
+            <div class="swiper-slide"><img src="https://play-lh.googleusercontent.com/ngWATP2GoY2BAwigajhpsgyeieygjcxitPCEwoteohfARt52z05xY6-pjnpS3YtqA_ZD-ovXuHoCCTNYyR6L=w5120-h2880-rw" class="rounded-xl shadow-lg mx-auto" alt="Creating a new reminder with Nag Mode option"></div>
+            <div class="swiper-slide"><img src="https://play-lh.googleusercontent.com/rA1sMxZhU6xEo9wVqPOL_-W0uAZhvF8RFEg5-4FCJ6gtC4GKXFXbrRGYXR67kdz3lXFy0mTauT4zllNXTX0alA=w5120-h2880-rw" class="rounded-xl shadow-lg mx-auto" alt="Morning briefing screen with daily task summary"></div>
+            <div class="swiper-slide"><img src="https://play-lh.googleusercontent.com/Nhbwqj9bhttCYThDWR4syLKSmZKRdmQKpKtfjcoavnYnsDXmo-JgtRP5b0nH9zkoEjpkA-Nlp-IDkpPHMROW1Q=w5120-h2880-rw" class="rounded-xl shadow-lg mx-auto" alt="Task categories organized with icons and colors"></div>
+            <div class="swiper-slide"><img src="https://play-lh.googleusercontent.com/MqFPufXLZWMJjIjheA3V_2WtqtIlhvSQnwLDeWLRYnJtzrT2HoER05-JOWTl1qZ4gN5wX-nEhDRjYj17oUn_aw=w5120-h2880-rw" class="rounded-xl shadow-lg mx-auto" alt="Productivity analytics dashboard with completion rates"></div>
+            <div class="swiper-slide"><img src="https://play-lh.googleusercontent.com/fptSZjjlu9HOfqvvxFA7XP_7pADeoPbySysPhjNVKGcVVxLWaPOnb0TY2AcNAgWiohxgKmrd4Dj60mcjHnkDDtE=w5120-h2880-rw" class="rounded-xl shadow-lg mx-auto" alt="Quiet hours configuration screen"></div>
+            <div class="swiper-slide"><img src="https://play-lh.googleusercontent.com/XTadaOdtjoBp8kxiGrhGyVX2AfHpmose35y86ZLMTYTHQ8lDQ8d5lEiTqWLpg83KnoG3mgucUi4fx9KkUQx0Dg=w5120-h2880-rw" class="rounded-xl shadow-lg mx-auto" alt="Priority levels setting for different tasks"></div>
+            <div class="swiper-slide"><img src="https://play-lh.googleusercontent.com/R4hnJmZeCwfFy1SbSinji4HF7ySm5ubl12f26PUH_Lgwmu5sve778FZBHcyHqZLmrwRxtoT4pRIeUrffGEYu3g=w5120-h2880-rw" class="rounded-xl shadow-lg mx-auto" alt="Flexible scheduling options for recurring reminders"></div>
+          </div>
+          <div class="swiper-button-next screenshot-next"></div>
+          <div class="swiper-button-prev screenshot-prev"></div>
+          <div class="swiper-pagination mt-6"></div>
         </div>
       </div>
-      <!-- Navigation buttons -->
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <!-- Pagination dots -->
-      <div class="swiper-pagination mt-6"></div>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script>
-      const swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        spaceBetween: 20,
-        loop: true,
-        pagination: { el: ".swiper-pagination", clickable: true },
-        navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" },
-        breakpoints: {
-          768: { slidesPerView: 2 },
-          1024: { slidesPerView: 3 }
-        }
-      });
-    </script>
-
+    </section>
   </div>
 </section>
 
-</div>
-
-</section>
-
 <!-- NAG MODE -->
-
 <section class="bg-white py-24">
-
-<div class="max-w-5xl mx-auto px-4 text-center">
-
-<h3 class="text-4xl font-bold mb-6">
-
-😤 Nag Mode — Our Signature Feature
-
-</h3>
-
-<p class="text-lg text-gray-600 mb-12">
-
-Turn on Nag Mode and NudgeMe will remind you every few minutes
-until the task is complete.
-
-Persistent reminders. Escalating messages.  
-You literally cannot forget.
-
-</p>
-
-<div class="grid md:grid-cols-3 gap-8 text-gray-700">
-
-<div class="bg-gray-100 p-6 rounded-xl">
-"You set this reminder yourself. Please. 🙏"
-</div>
-
-<div class="bg-gray-100 p-6 rounded-xl">
-"GET. IT. DONE. 🚨"
-</div>
-
-<div class="bg-gray-100 p-6 rounded-xl">
-"I believe in you. Prove me right. 💪"
-</div>
-
-</div>
-
-</div>
-
+  <div class="max-w-5xl mx-auto px-4 text-center">
+    <h3 class="text-4xl font-bold mb-6">😤 Nag Mode — Our Signature Feature</h3>
+    <p class="text-lg text-gray-600 mb-12">
+      Turn on Nag Mode and NudgeMe will remind you every few minutes until the task is complete.
+      Persistent reminders. Escalating messages. You literally cannot forget.
+    </p>
+    <div class="grid md:grid-cols-3 gap-8 text-gray-700">
+      <div class="bg-gray-100 p-6 rounded-xl">"You set this reminder yourself. Please. 🙏"</div>
+      <div class="bg-gray-100 p-6 rounded-xl">"GET. IT. DONE. 🚨"</div>
+      <div class="bg-gray-100 p-6 rounded-xl">"I believe in you. Prove me right. 💪"</div>
+    </div>
+  </div>
 </section>
 
 <!-- FEATURES -->
-
 <section class="py-24">
-
-<div class="max-w-6xl mx-auto px-4">
-
-<h3 class="text-4xl font-bold text-center mb-16">
-
-Powerful Reminder Features
-
-</h3>
-
-<div class="grid md:grid-cols-3 gap-10">
-
-<div>
-<h4 class="font-semibold text-xl mb-2">🌅 Morning Briefing</h4>
-<p class="text-gray-600">
-Start your day with a smart summary of your tasks and most urgent reminder.
-</p>
-</div>
-
-<div>
-<h4 class="font-semibold text-xl mb-2">⏰ Flexible Scheduling</h4>
-<p class="text-gray-600">
-Set reminders every 30 minutes, daily, weekly, or with custom intervals.
-</p>
-</div>
-
-<div>
-<h4 class="font-semibold text-xl mb-2">🔕 Quiet Hours</h4>
-<p class="text-gray-600">
-Silence reminders automatically during sleep hours.
-</p>
-</div>
-
-<div>
-<h4 class="font-semibold text-xl mb-2">🗂️ Categories</h4>
-<p class="text-gray-600">
-Organize tasks with icons, colors, and custom categories.
-</p>
-</div>
-
-<div>
-<h4 class="font-semibold text-xl mb-2">🔥 Priority Levels</h4>
-<p class="text-gray-600">
-Set priorities from Low to Urgent so nothing gets ignored.
-</p>
-</div>
-
-<div>
-<h4 class="font-semibold text-xl mb-2">📊 Analytics</h4>
-<p class="text-gray-600">
-Track completion rate, productivity streaks, and task performance.
-</p>
-</div>
-
-</div>
-
-</div>
-
+  <div class="max-w-6xl mx-auto px-4">
+    <h3 class="text-4xl font-bold text-center mb-16">Powerful Reminder Features</h3>
+    <div class="grid md:grid-cols-3 gap-10">
+      <div><h4 class="font-semibold text-xl mb-2">🌅 Morning Briefing</h4><p class="text-gray-600">Start your day with a smart summary of your tasks and most urgent reminder.</p></div>
+      <div><h4 class="font-semibold text-xl mb-2">⏰ Flexible Scheduling</h4><p class="text-gray-600">Set reminders every 30 minutes, daily, weekly, or with custom intervals.</p></div>
+      <div><h4 class="font-semibold text-xl mb-2">🔕 Quiet Hours</h4><p class="text-gray-600">Silence reminders automatically during sleep hours.</p></div>
+      <div><h4 class="font-semibold text-xl mb-2">🗂️ Categories</h4><p class="text-gray-600">Organize tasks with icons, colors, and custom categories.</p></div>
+      <div><h4 class="font-semibold text-xl mb-2">🔥 Priority Levels</h4><p class="text-gray-600">Set priorities from Low to Urgent so nothing gets ignored.</p></div>
+      <div><h4 class="font-semibold text-xl mb-2">📊 Analytics</h4><p class="text-gray-600">Track completion rate, productivity streaks, and task performance.</p></div>
+    </div>
+  </div>
 </section>
-<!-- COMPARISON SECTION -->
 
+<!-- COMPARISON -->
 <section class="py-24 bg-gray-50">
-
-<div class="max-w-6xl mx-auto px-4 text-center">
-
-<h3 class="text-4xl font-bold mb-16">
-Why NudgeMe Works When Other Reminder Apps Fail
-</h3>
-
-<div class="overflow-x-auto">
-
-<table class="min-w-full bg-white rounded-xl shadow-lg">
-
-<thead class="bg-gray-100">
-<tr>
-<th class="py-4 px-6 text-left">Feature</th>
-<th class="py-4 px-6 text-center">Typical Reminder Apps</th>
-<th class="py-4 px-6 text-center text-indigo-600 font-bold">NudgeMe</th>
-</tr>
-</thead>
-
-<tbody class="text-gray-700">
-
-<tr class="border-t">
-<td class="py-4 px-6 text-left">One-time notifications</td>
-<td class="text-center">✔</td>
-<td class="text-center">✔</td>
-</tr>
-
-<tr class="border-t">
-<td class="py-4 px-6 text-left">Persistent reminders</td>
-<td class="text-center">✖</td>
-<td class="text-center text-green-600 font-semibold">✔</td>
-</tr>
-
-<tr class="border-t">
-<td class="py-4 px-6 text-left">Escalating notifications</td>
-<td class="text-center">✖</td>
-<td class="text-center text-green-600 font-semibold">✔</td>
-</tr>
-
-<tr class="border-t">
-<td class="py-4 px-6 text-left">Morning briefing</td>
-<td class="text-center">✖</td>
-<td class="text-center text-green-600 font-semibold">✔</td>
-</tr>
-
-<tr class="border-t">
-<td class="py-4 px-6 text-left">Productivity analytics</td>
-<td class="text-center">Limited</td>
-<td class="text-center text-green-600 font-semibold">✔</td>
-</tr>
-
-<tr class="border-t">
-<td class="py-4 px-6 text-left">Nag Mode accountability</td>
-<td class="text-center">✖</td>
-<td class="text-center text-green-600 font-semibold font-bold">✔</td>
-</tr>
-
-</tbody>
-
-</table>
-
-</div>
-
-</div>
-
+  <div class="max-w-6xl mx-auto px-4 text-center">
+    <h3 class="text-4xl font-bold mb-16">Why NudgeMe Works When Other Reminder Apps Fail</h3>
+    <div class="overflow-x-auto">
+      <table class="min-w-full bg-white rounded-xl shadow-lg">
+        <thead class="bg-gray-100">
+          <tr>
+            <th class="py-4 px-6 text-left">Feature</th>
+            <th class="py-4 px-6 text-center">Typical Reminder Apps</th>
+            <th class="py-4 px-6 text-center text-indigo-600 font-bold">NudgeMe</th>
+          </tr>
+        </thead>
+        <tbody class="text-gray-700">
+          <tr class="border-t"><td class="py-4 px-6 text-left">One-time notifications</td><td class="text-center">✔</td><td class="text-center">✔</td></tr>
+          <tr class="border-t"><td class="py-4 px-6 text-left">Persistent reminders</td><td class="text-center">✖</td><td class="text-center text-green-600 font-semibold">✔</td></tr>
+          <tr class="border-t"><td class="py-4 px-6 text-left">Escalating notifications</td><td class="text-center">✖</td><td class="text-center text-green-600 font-semibold">✔</td></tr>
+          <tr class="border-t"><td class="py-4 px-6 text-left">Morning briefing</td><td class="text-center">✖</td><td class="text-center text-green-600 font-semibold">✔</td></tr>
+          <tr class="border-t"><td class="py-4 px-6 text-left">Productivity analytics</td><td class="text-center">Limited</td><td class="text-center text-green-600 font-semibold">✔</td></tr>
+          <tr class="border-t"><td class="py-4 px-6 text-left">Nag Mode accountability</td><td class="text-center">✖</td><td class="text-center text-green-600 font-semibold font-bold">✔</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </section>
-  <!-- STICKY DOWNLOAD BUTTON -->
 
+<!-- STICKY DOWNLOAD BUTTON -->
 <a href="https://play.google.com/store/apps/details?id=com.teknoefsun.nudge.nudge"
-class="fixed bottom-6 right-6 bg-indigo-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-indigo-700">
+class="fixed bottom-6 right-6 bg-indigo-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-indigo-700">⬇ Download</a>
 
-⬇ Download
-
-</a>
 <!-- USE CASES -->
-
 <section class="bg-white py-24">
-
-<div class="max-w-5xl mx-auto px-4 text-center">
-
-<h3 class="text-4xl font-bold mb-12">
-
-Perfect For
-
-</h3>
-
-<div class="grid md:grid-cols-2 gap-8 text-left">
-
-<div>
-
-<ul class="space-y-3 text-gray-700">
-
-<li>💊 Medication reminders</li>
-<li>🏋️ Workout schedules</li>
-<li>📅 Doctor appointments</li>
-<li>📚 Study sessions</li>
-
-</ul>
-
-</div>
-
-<div>
-
-<ul class="space-y-3 text-gray-700">
-
-<li>💼 Work follow-ups</li>
-<li>💰 Paying bills</li>
-<li>🛒 Errands</li>
-<li>👨‍👩‍👧 Personal tasks</li>
-
-</ul>
-
-</div>
-
-</div>
-
-</div>
-
+  <div class="max-w-5xl mx-auto px-4 text-center">
+    <h3 class="text-4xl font-bold mb-12">Perfect For</h3>
+    <div class="grid md:grid-cols-2 gap-8 text-left">
+      <div>
+        <ul class="space-y-3 text-gray-700">
+          <li>💊 Medication reminders</li>
+          <li>🏋️ Workout schedules</li>
+          <li>📅 Doctor appointments</li>
+          <li>📚 Study sessions</li>
+        </ul>
+      </div>
+      <div>
+        <ul class="space-y-3 text-gray-700">
+          <li>💼 Work follow-ups</li>
+          <li>💰 Paying bills</li>
+          <li>🛒 Errands</li>
+          <li>👨‍👩‍👧 Personal tasks</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </section>
 
 <!-- CTA -->
-
 <section class="py-24 text-center">
-
-<h3 class="text-4xl font-bold mb-6">
-
-Stop Forgetting Important Things
-
-</h3>
-
-<p class="text-gray-600 mb-10">
-
-Download NudgeMe and start getting things done.
-
-</p>
-
-<a href="https://play.google.com/store/apps/details?id=com.teknoefsun.nudge.nudge"
-class="bg-indigo-600 text-white px-10 py-4 rounded-lg text-lg font-semibold hover:bg-indigo-700">
-
-Download Free
-
-</a>
-
+  <h3 class="text-4xl font-bold mb-6">Stop Forgetting Important Things</h3>
+  <p class="text-gray-600 mb-10">Download NudgeMe and start getting things done.</p>
+  <a href="https://play.google.com/store/apps/details?id=com.teknoefsun.nudge.nudge"
+     class="bg-indigo-600 text-white px-10 py-4 rounded-lg text-lg font-semibold hover:bg-indigo-700">Download Free</a>
 </section>
 
-  <!-- RATING BANNER -->
-
+<!-- RATING BANNER -->
 <section class="py-16 bg-indigo-600 text-white text-center">
-
-<div class="max-w-4xl mx-auto px-4">
-
-<h3 class="text-3xl font-bold mb-4">
-⭐⭐⭐⭐⭐ Loved by Productivity Enthusiasts
-</h3>
-
-<p class="text-lg opacity-90">
-Users rely on NudgeMe every day to stay accountable, remember important tasks,
-and build consistent habits.
-</p>
-
-</div>
-
+  <div class="max-w-4xl mx-auto px-4">
+    <h3 class="text-3xl font-bold mb-4">⭐⭐⭐⭐⭐ Loved by Productivity Enthusiasts</h3>
+    <p class="text-lg opacity-90">Users rely on NudgeMe every day to stay accountable, remember important tasks, and build consistent habits.</p>
+  </div>
 </section>
-  
 
 <!-- TESTIMONIALS / REVIEWS -->
-
 <section class="py-24 bg-white">
   <div class="max-w-6xl mx-auto px-4 text-center">
     <h3 class="text-4xl font-bold mb-12">What Our Users Say</h3>
 
     <!-- Swiper for testimonials -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <div class="swiper testimonialSwiper">
-      <div class="swiper-wrapper space-y-6">
+      <div class="swiper-wrapper">
 
+        <!-- Testimonial 1 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=1" class="w-12 h-12 rounded-full mr-4" alt="Alice M.">
+            <div>
+              <p class="font-semibold">Alice M.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“NudgeMe has completely changed my productivity! Nag mode actually works and I never forget tasks.”</p>
+        </div>
 
-<!-- Testimonial 1 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-  <p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-  <p class="text-gray-700 mb-4">“Nag Mode is a game-changer. I literally cannot forget my morning workouts now!”</p>
-  <p class="font-semibold text-indigo-600">– Sarah L., Fitness Enthusiast</p>
-</div>
+        <!-- Testimonial 2 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=2" class="w-12 h-12 rounded-full mr-4" alt="Brian K.">
+            <div>
+              <p class="font-semibold">Brian K.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“The reminders are persistent but friendly. I love the morning briefing feature!”</p>
+        </div>
 
-<!-- Testimonial 2 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-  <p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-  <p class="text-gray-700 mb-4">“Finally, an app that actually keeps reminding me to take my medication. Life saver.”</p>
-  <p class="font-semibold text-indigo-600">– Michael T., Health-conscious</p>
-</div>
+        <!-- Testimonial 3 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=3" class="w-12 h-12 rounded-full mr-4" alt="Catherine L.">
+            <div>
+              <p class="font-semibold">Catherine L.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“I actually get my work done now. Nag mode is relentless in a good way!”</p>
+        </div>
 
-<!-- Testimonial 3 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-  <p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-  <p class="text-gray-700 mb-4">“The Morning Briefing is perfect. One glance and I know exactly what’s due today.”</p>
-  <p class="font-semibold text-indigo-600">– Priya S., Office Manager</p>
-</div>
+        <!-- Testimonial 4 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=4" class="w-12 h-12 rounded-full mr-4" alt="David R.">
+            <div>
+              <p class="font-semibold">David R.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“Finally, an app that reminds me until I finish tasks. No more procrastination!”</p>
+        </div>
 
-<!-- Testimonial 4 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-  <p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-  <p class="text-gray-700 mb-4">“I set my deadlines, and NudgeMe keeps me accountable. No more missed payments!”</p>
-  <p class="font-semibold text-indigo-600">– David R., Freelancer</p>
-</div>
+        <!-- Testimonial 5 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=5" class="w-12 h-12 rounded-full mr-4" alt="Emma T.">
+            <div>
+              <p class="font-semibold">Emma T.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“I love the analytics. I can see how consistent I’ve been completing my tasks.”</p>
+        </div>
 
-<!-- Testimonial 5 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-  <p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-  <p class="text-gray-700 mb-4">“I love the flexible scheduling. Daily, weekly, or custom intervals – works exactly how I want.”</p>
-  <p class="font-semibold text-indigo-600">– Emily K., Student</p>
-</div>
+        <!-- Testimonial 6 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=6" class="w-12 h-12 rounded-full mr-4" alt="Frank G.">
+            <div>
+              <p class="font-semibold">Frank G.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“Nag mode is intense but effective. I’ve never been more productive.”</p>
+        </div>
 
-<!-- Testimonial 6 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-  <p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-  <p class="text-gray-700 mb-4">“Escalating reminders are hilarious but effective. I actually get things done now!”</p>
-  <p class="font-semibold text-indigo-600">– John M., Entrepreneur</p>
-</div>
+        <!-- Testimonial 7 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=7" class="w-12 h-12 rounded-full mr-4" alt="Grace S.">
+            <div>
+              <p class="font-semibold">Grace S.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“I was skeptical, but NudgeMe keeps me on track every day.”</p>
+        </div>
 
-<!-- Testimonial 7 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-  <p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-  <p class="text-gray-700 mb-4">“I was skeptical at first, but the smart repeat and snooze features make daily tasks effortless.”</p>
-  <p class="font-semibold text-indigo-600">– Ana P., Graduate Student</p>
-</div>
+        <!-- Testimonial 8 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=8" class="w-12 h-12 rounded-full mr-4" alt="Henry P.">
+            <div>
+              <p class="font-semibold">Henry P.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“Finally, an app that doesn’t just send one notification and forget.”</p>
+        </div>
 
-<!-- Testimonial 8 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-  <p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-  <p class="text-gray-700 mb-4">“Categories and priority levels let me organize tasks perfectly. Love the color coding.”</p>
-  <p class="font-semibold text-indigo-600">– Carlos H., Designer</p>
-</div>
+        <!-- Testimonial 9 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=9" class="w-12 h-12 rounded-full mr-4" alt="Isabella V.">
+            <div>
+              <p class="font-semibold">Isabella V.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“Flexible scheduling and snooze options make it better than any to-do list app I’ve tried.”</p>
+        </div>
 
-<!-- Testimonial 9 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-  <p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-  <p class="text-gray-700 mb-4">“Works offline and lightweight. My phone battery isn’t drained like with other reminder apps.”</p>
-  <p class="font-semibold text-indigo-600">– Fatima N., Teacher</p>
-</div>
+        <!-- Testimonial 10 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=10" class="w-12 h-12 rounded-full mr-4" alt="Jack M.">
+            <div>
+              <p class="font-semibold">Jack M.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“Priority escalation works perfectly for work deadlines. I don’t miss anything now.”</p>
+        </div>
 
-<!-- Testimonial 10 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-  <p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-  <p class="text-gray-700 mb-4">“Completion streaks and analytics are motivating. I finally see my progress daily.”</p>
-  <p class="font-semibold text-indigo-600">– Liam O., Project Manager</p>
-</div>
+        <!-- Testimonial 11 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=11" class="w-12 h-12 rounded-full mr-4" alt="Laura F.">
+            <div>
+              <p class="font-semibold">Laura F.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“Completion streaks and analytics are motivating. I finally see my progress daily.”</p>
+        </div>
 
-<!-- Testimonial 11 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-  <p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-  <p class="text-gray-700 mb-4">“Nag Mode is tough love. I was ignoring other apps, but not this one!”</p>
-  <p class="font-semibold text-indigo-600">– Sophia R., Freelancer</p>
-</div>
+        <!-- Testimonial 12 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=12" class="w-12 h-12 rounded-full mr-4" alt="Liam O.">
+            <div>
+              <p class="font-semibold">Liam O.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“Works offline and lightweight. My phone battery isn’t drained like with other reminder apps.”</p>
+        </div>
 
-<!-- Testimonial 12 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-  <p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-  <p class="text-gray-700 mb-4">“Morning briefing simplifies my entire day. Just a single notification tells me what’s important.”</p>
-  <p class="font-semibold text-indigo-600">– Ethan B., Engineer</p>
-</div>
+        <!-- Testimonial 13 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=13" class="w-12 h-12 rounded-full mr-4" alt="Mia J.">
+            <div>
+              <p class="font-semibold">Mia J.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“The app’s interface is simple and clean. I didn’t need any tutorial.”</p>
+        </div>
 
-<!-- Testimonial 13 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-  <p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-  <p class="text-gray-700 mb-4">“Flexible scheduling and snooze options make it better than any to-do list app I’ve tried.”</p>
-  <p class="font-semibold text-indigo-600">– Isabella V., Consultant</p>
-</div>
+        <!-- Testimonial 14 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=14" class="w-12 h-12 rounded-full mr-4" alt="Ethan W.">
+            <div>
+              <p class="font-semibold">Ethan W.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“Escalation notifications actually push me to complete tasks faster. Highly effective.”</p>
+        </div>
 
-<!-- Testimonial 14 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-  <p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-  <p class="text-gray-700 mb-4">“Priority escalation works perfectly for work deadlines. I don’t miss anything now.”</p>
-  <p class="font-semibold text-indigo-600">– Ryan L., Marketing Specialist</p>
-</div>
+        <!-- Testimonial 15 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=15" class="w-12 h-12 rounded-full mr-4" alt="Sophia R.">
+            <div>
+              <p class="font-semibold">Sophia R.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“I finally enjoy using a reminder app. It motivates rather than annoys.”</p>
+        </div>
 
-<!-- Testimonial 15 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-  <p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-  <p class="text-gray-700 mb-4">“I recommended NudgeMe to my whole team. We all stay accountable now.”</p>
-  <p class="font-semibold text-indigo-600">– Grace P., Team Lead</p>
-</div>
+        <!-- Testimonial 16 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=16" class="w-12 h-12 rounded-full mr-4" alt="Kevin D.">
+            <div>
+              <p class="font-semibold">Kevin D.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“Nag Mode is brutal but effective. I finally stopped procrastinating.”</p>
+        </div>
 
-<!-- Testimonial 16 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-  <p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-  <p class="text-gray-700 mb-4">“It’s fun and effective. The escalating reminders make me laugh while keeping me on track.”</p>
-  <p class="font-semibold text-indigo-600">– Alex D., Developer</p>
-</div>
+        <!-- Testimonial 17 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=17" class="w-12 h-12 rounded-full mr-4" alt="Maria L.">
+            <div>
+              <p class="font-semibold">Maria L.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“I use it for medication reminders and it has never failed me.”</p>
+        </div>
 
-<!-- Testimonial 17 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-  <p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-  <p class="text-gray-700 mb-4">“The app’s interface is simple and clean. I didn’t need any tutorial.”</p>
-  <p class="font-semibold text-indigo-600">– Chloe S., Designer</p>
-</div>
+        <!-- Testimonial 18 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=18" class="w-12 h-12 rounded-full mr-4" alt="Jordan K.">
+            <div>
+              <p class="font-semibold">Jordan K.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“This is the first reminder app that actually pushes me until I finish the task.”</p>
+        </div>
 
-<!-- Testimonial 18 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-  <p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-  <p class="text-gray-700 mb-4">“Escalation notifications actually push me to complete tasks faster. Highly effective.”</p>
-  <p class="font-semibold text-indigo-600">– Daniel F., Entrepreneur</p>
-</div>
+        <!-- Testimonial 19 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=19" class="w-12 h-12 rounded-full mr-4" alt="Hannah P.">
+            <div>
+              <p class="font-semibold">Hannah P.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“Morning briefing is brilliant. It replaced my daily planner.”</p>
+        </div>
 
-<!-- Testimonial 19 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-  <p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-  <p class="text-gray-700 mb-4">“I finally enjoy using a reminder app. It motivates rather than annoys.”</p>
-  <p class="font-semibold text-indigo-600">– Mia J., Student</p>
-</div>
+        <!-- Testimonial 20 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=20" class="w-12 h-12 rounded-full mr-4" alt="Leo S.">
+            <div>
+              <p class="font-semibold">Leo S.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“Simple interface but extremely powerful reminder system.”</p>
+        </div>
 
-<!-- Testimonial 20 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-<p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-<p class="text-gray-700 mb-4">“Nag Mode is brutal but effective. I finally stopped procrastinating.”</p>
-<p class="font-semibold text-indigo-600">– Kevin D., Startup Founder</p>
-</div>
+        <!-- Testimonial 21 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=21" class="w-12 h-12 rounded-full mr-4" alt="Olivia W.">
+            <div>
+              <p class="font-semibold">Olivia W.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“I used it to track bill payments and haven't missed one since.”</p>
+        </div>
 
-<!-- Testimonial 21 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-<p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-<p class="text-gray-700 mb-4">“I use it for medication reminders and it has never failed me.”</p>
-<p class="font-semibold text-indigo-600">– Maria L., Nurse</p>
-</div>
+        <!-- Testimonial 22 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=22" class="w-12 h-12 rounded-full mr-4" alt="Noah B.">
+            <div>
+              <p class="font-semibold">Noah B.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“Way better than basic alarm reminders.”</p>
+        </div>
 
-<!-- Testimonial 22 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-<p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-<p class="text-gray-700 mb-4">“This is the first reminder app that actually pushes me until I finish the task.”</p>
-<p class="font-semibold text-indigo-600">– Jordan K., Student</p>
-</div>
+        <!-- Testimonial 23 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=23" class="w-12 h-12 rounded-full mr-4" alt="Mark J.">
+            <div>
+              <p class="font-semibold">Mark J.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“The priority levels are extremely useful for work deadlines.”</p>
+        </div>
 
-<!-- Testimonial 23 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-<p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-<p class="text-gray-700 mb-4">“Morning briefing is brilliant. It replaced my daily planner.”</p>
-<p class="font-semibold text-indigo-600">– Hannah P., Teacher</p>
-</div>
+        <!-- Testimonial 24 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=24" class="w-12 h-12 rounded-full mr-4" alt="Ahmed N.">
+            <div>
+              <p class="font-semibold">Ahmed N.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“Lightweight and fast. Doesn't slow down my phone.”</p>
+        </div>
 
-<!-- Testimonial 24 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-<p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-<p class="text-gray-700 mb-4">“Simple interface but extremely powerful reminder system.”</p>
-<p class="font-semibold text-indigo-600">– Leo S., UX Designer</p>
-</div>
+        <!-- Testimonial 25 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=25" class="w-12 h-12 rounded-full mr-4" alt="Chloe M.">
+            <div>
+              <p class="font-semibold">Chloe M.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“Perfect for gym reminders. I don't skip workouts anymore.”</p>
+        </div>
 
-<!-- Testimonial 25 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-<p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-<p class="text-gray-700 mb-4">“The escalating notifications are funny but also motivating.”</p>
-<p class="font-semibold text-indigo-600">– Adam R., Developer</p>
-</div>
+        <!-- Testimonial 26 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=26" class="w-12 h-12 rounded-full mr-4" alt="Lucas T.">
+            <div>
+              <p class="font-semibold">Lucas T.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“I like that it works offline and doesn't require an account.”</p>
+        </div>
 
-<!-- Testimonial 26 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-<p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-<p class="text-gray-700 mb-4">“I used it to track bill payments and haven't missed one since.”</p>
-<p class="font-semibold text-indigo-600">– Olivia W., Accountant</p>
-</div>
+        <!-- Testimonial 27 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=27" class="w-12 h-12 rounded-full mr-4" alt="Sophia C.">
+            <div>
+              <p class="font-semibold">Sophia C.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“Nag mode reminds me without being annoying. Very smart notifications.”</p>
+        </div>
 
-<!-- Testimonial 27 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-<p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-<p class="text-gray-700 mb-4">“Way better than basic alarm reminders.”</p>
-<p class="font-semibold text-indigo-600">– Noah B., Student</p>
-</div>
+        <!-- Testimonial 28 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=28" class="w-12 h-12 rounded-full mr-4" alt="Evelyn R.">
+            <div>
+              <p class="font-semibold">Evelyn R.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“Best app for tracking recurring tasks.”</p>
+        </div>
 
-<!-- Testimonial 28 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-<p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-<p class="text-gray-700 mb-4">“The priority levels are extremely useful for work deadlines.”</p>
-<p class="font-semibold text-indigo-600">– Mark J., Project Manager</p>
-</div>
+        <!-- Testimonial 29 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=29" class="w-12 h-12 rounded-full mr-4" alt="Daniel K.">
+            <div>
+              <p class="font-semibold">Daniel K.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“Notifications escalate in the right way. Keeps me disciplined.”</p>
+        </div>
 
-<!-- Testimonial 29 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-<p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-<p class="text-gray-700 mb-4">“Lightweight and fast. Doesn't slow down my phone.”</p>
-<p class="font-semibold text-indigo-600">– Ahmed N., Engineer</p>
-</div>
+        <!-- Testimonial 30 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=30" class="w-12 h-12 rounded-full mr-4" alt="Zara L.">
+            <div>
+              <p class="font-semibold">Zara L.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“Very intuitive. I set reminders in seconds.”</p>
+        </div>
 
-<!-- Testimonial 30 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-<p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-<p class="text-gray-700 mb-4">“Perfect for gym reminders. I don't skip workouts anymore.”</p>
-<p class="font-semibold text-indigo-600">– Chloe M., Fitness Trainer</p>
-</div>
+        <!-- Testimonial 31 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=31" class="w-12 h-12 rounded-full mr-4" alt="Nathan D.">
+            <div>
+              <p class="font-semibold">Nathan D.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“Perfect for task escalation. Never forgets a thing.”</p>
+        </div>
 
-<!-- Testimonial 31 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-<p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-<p class="text-gray-700 mb-4">“I like that it works offline and doesn't require an account.”</p>
-<p class="font-semibold text-indigo-600">– Lucas T., Privacy Advocate</p>
-</div>
+        <!-- Testimonial 32 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=32" class="w-12 h-12 rounded-full mr-4" alt="Lily M.">
+            <div>
+              <p class="font-semibold">Lily M.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“I’m finally consistent with my morning routines.”</p>
+        </div>
 
-<!-- Testimonial 32 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-<p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-<p class="text-gray-700 mb-4">“Categories help me separate work tasks from personal ones.”</p>
-<p class="font-semibold text-indigo-600">– Rachel F., Consultant</p>
-</div>
+        <!-- Testimonial 33 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=33" class="w-12 h-12 rounded-full mr-4" alt="Owen T.">
+            <div>
+              <p class="font-semibold">Owen T.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“Notifications feel smart and timely. I love it.”</p>
+        </div>
 
-<!-- Testimonial 33 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-<p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-<p class="text-gray-700 mb-4">“This app is basically a productivity coach in my pocket.”</p>
-<p class="font-semibold text-indigo-600">– Ethan W., Entrepreneur</p>
-</div>
+        <!-- Testimonial 34 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=34" class="w-12 h-12 rounded-full mr-4" alt="Sophia N.">
+            <div>
+              <p class="font-semibold">Sophia N.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“Love the daily analytics. Keeps me motivated every day.”</p>
+        </div>
 
-<!-- Testimonial 34 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-<p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-<p class="text-gray-700 mb-4">“The snooze options are perfect when I'm busy.”</p>
-<p class="font-semibold text-indigo-600">– Sophia K., Lawyer</p>
-</div>
+        <!-- Testimonial 35 -->
+        <div class="swiper-slide p-6 bg-gray-50 rounded-xl shadow-lg text-left">
+          <div class="flex items-center mb-4">
+            <img src="https://i.pravatar.cc/60?img=35" class="w-12 h-12 rounded-full mr-4" alt="Ethan F.">
+            <div>
+              <p class="font-semibold">Ethan F.</p>
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+          <p class="text-gray-700">“Best reminder app I’ve ever used. Simple, fast, and effective.”</p>
+        </div>
 
-<!-- Testimonial 35 -->
-<div class="swiper-slide bg-gray-50 p-6 rounded-xl shadow-lg">
-<p class="text-yellow-400 text-xl mb-2">★★★★★</p>
-<p class="text-gray-700 mb-4">“I finally enjoy using a reminder app. It motivates rather than annoys.”</p>
-<p class="font-semibold text-indigo-600">– Mia J., Student</p>
-</div>
-        <!-- Navigation buttons for testimonial swiper -->
+      </div>
+
+      <!-- Navigation buttons for testimonial swiper -->
       <div class="swiper-button-next testimonial-next text-indigo-600"></div>
       <div class="swiper-button-prev testimonial-prev text-indigo-600"></div>
-
-      </div>
-      </div>
-
-      <!-- Navigation buttons -->
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
       <!-- Pagination dots -->
       <div class="swiper-pagination mt-6"></div>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script>
-      const testimonialSwiper = new Swiper(".testimonialSwiper", {
-        slidesPerView: 1,
-        spaceBetween: 20,
-        loop: true,
-        pagination: { el: ".swiper-pagination", clickable: true },
-        navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" },
-        breakpoints: {
-          768: { slidesPerView: 2 },
-          1024: { slidesPerView: 3 }
-        }
-      });
-    </script>
-
   </div>
 </section>
 
 <!-- FOOTER -->
-
 <footer class="bg-gray-900 text-gray-400 py-10">
-
-<div class="max-w-6xl mx-auto px-4 flex justify-between">
-
-<p>
-© 2026 NudgeMe
-</p>
-
-<div class="space-x-6">
-
-<a href="https://aysecs11.github.io/nudgeme/" class="hover:text-white">Privacy</a>
-
-<a href="mailto:teknoefsun@gmail.com" class="hover:text-white">Contact</a>
-
-</div>
-
-</div>
-
+  <div class="max-w-6xl mx-auto px-4 flex justify-between">
+    <p>© 2026 NudgeMe</p>
+    <div class="space-x-6">
+      <a href="https://aysecs11.github.io/nudgeme/" class="hover:text-white">Privacy</a>
+      <a href="mailto:teknoefsun@gmail.com" class="hover:text-white">Contact</a>
+    </div>
+  </div>
 </footer>
 
-</body>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
+<script>
+  // Screenshot carousel
+  const screenshotSwiper = new Swiper(".screenshotSwiper", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+    pagination: { el: ".screenshotSwiper .swiper-pagination", clickable: true },
+    navigation: { nextEl: ".screenshot-next", prevEl: ".screenshot-prev" },
+    breakpoints: {
+      768: { slidesPerView: 2 },
+      1024: { slidesPerView: 3 }
+    }
+  });
+
+  // Testimonial carousel
+  const testimonialSwiper = new Swiper(".testimonialSwiper", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+    pagination: { el: ".testimonialSwiper .swiper-pagination", clickable: true },
+    navigation: { nextEl: ".testimonial-next", prevEl: ".testimonial-prev" },
+    breakpoints: {
+      768: { slidesPerView: 2 },
+      1024: { slidesPerView: 3 }
+    }
+  });
+</script>
+
+</body>
 </html>
