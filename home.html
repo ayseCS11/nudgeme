@@ -75,7 +75,65 @@ Download on Google Play
 
 <div>
 
-<img src="screenshot1.png" class="rounded-xl shadow-xl">
+<!-- SCREENSHOTS CAROUSEL -->
+
+<section class="py-24 bg-gray-50">
+  <div class="max-w-6xl mx-auto px-4 text-center">
+    <h3 class="text-4xl font-bold mb-12">App Screenshots</h3>
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="https://play-lh.googleusercontent.com/vDoKEH_GURNOLRum9jyfO2-soyT5PRPGh9xxPz0CuGMFNK1s1hgSPMhwZBtcNuvQXeWDKylQQqLYRVB44nHf5g=w5120-h2880-rw" class="rounded-xl shadow-lg mx-auto" alt="Screenshot 1">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://play-lh.googleusercontent.com/ngWATP2GoY2BAwigajhpsgyeieygjcxitPCEwoteohfARt52z05xY6-pjnpS3YtqA_ZD-ovXuHoCCTNYyR6L=w5120-h2880-rw" class="rounded-xl shadow-lg mx-auto" alt="Screenshot 2">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://play-lh.googleusercontent.com/rA1sMxZhU6xEo9wVqPOL_-W0uAZhvF8RFEg5-4FCJ6gtC4GKXFXbrRGYXR67kdz3lXFy0mTauT4zllNXTX0alA=w5120-h2880-rw" class="rounded-xl shadow-lg mx-auto" alt="Screenshot 3">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://play-lh.googleusercontent.com/Nhbwqj9bhttCYThDWR4syLKSmZKRdmQKpKtfjcoavnYnsDXmo-JgtRP5b0nH9zkoEjpkA-Nlp-IDkpPHMROW1Q=w5120-h2880-rw" class="rounded-xl shadow-lg mx-auto" alt="Screenshot 4">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://play-lh.googleusercontent.com/MqFPufXLZWMJjIjheA3V_2WtqtIlhvSQnwLDeWLRYnJtzrT2HoER05-JOWTl1qZ4gN5wX-nEhDRjYj17oUn_aw=w5120-h2880-rw" class="rounded-xl shadow-lg mx-auto" alt="Screenshot 5">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://play-lh.googleusercontent.com/fptSZjjlu9HOfqvvxFA7XP_7pADeoPbySysPhjNVKGcVVxLWaPOnb0TY2AcNAgWiohxgKmrd4Dj60mcjHnkDDtE=w5120-h2880-rw" class="rounded-xl shadow-lg mx-auto" alt="Screenshot 6">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://play-lh.googleusercontent.com/XTadaOdtjoBp8kxiGrhGyVX2AfHpmose35y86ZLMTYTHQ8lDQ8d5lEiTqWLpg83KnoG3mgucUi4fx9KkUQx0Dg=w5120-h2880-rw" class="rounded-xl shadow-lg mx-auto" alt="Screenshot 7">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://play-lh.googleusercontent.com/R4hnJmZeCwfFy1SbSinji4HF7ySm5ubl12f26PUH_Lgwmu5sve778FZBHcyHqZLmrwRxtoT4pRIeUrffGEYu3g=w5120-h2880-rw" class="rounded-xl shadow-lg mx-auto" alt="Screenshot 8">
+        </div>
+      </div>
+      <!-- Navigation buttons -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <!-- Pagination dots -->
+      <div class="swiper-pagination mt-6"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        pagination: { el: ".swiper-pagination", clickable: true },
+        navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" },
+        breakpoints: {
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 }
+        }
+      });
+    </script>
+
+  </div>
+</section>
 
 </div>
 
